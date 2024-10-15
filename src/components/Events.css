@@ -1,0 +1,105 @@
+   .Events{
+        width: 100%;
+        float: left;
+    }
+
+    .Events-bg {
+        width: 100%;
+        float: left;
+        background-image: url(Events-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 1000px;
+    }
+
+    .Events-hed {
+        height: 300px;
+        text-align: center;
+    }
+
+    .Events-hed p {
+        color: rgb(255, 255, 255);
+        margin-top: 200px;
+        font-size: 70px;
+        font-weight: 500;
+        font-family: cursive;
+    }
+
+    .Events-hed h2 {
+        background: -webkit-linear-gradient(#ff0000, #ffffff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 80px;
+        margin-top: 40px;
+        display: ruby-base;
+    }
+
+    .Events-path {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        float: left;
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .Events-path a {
+        text-decoration: none;
+        color: white;
+        padding: 30px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Events-path p {
+        font-size: 40px;
+        font-weight: 150;
+        color: white;
+        text-align: center;
+        margin-top: 15px;
+    }
+        
+
+    
+
+.Events-card-bg {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#f12a80 , #2c1464);
+    float: left;
+}
+
+.Events-card {
+    width: fit-content;
+    height: fit-content;
+    border: 5px solid rgb(214, 109, 109);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 120px;
+    float: left;
+    position: relative;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.Events-card img {
+    width: 450px;
+    height: 310px;
+    position: relative;
+
+}
+
+.Events-card h2 {
+    float: left;
+    position: absolute;
+    bottom: 1px;
+    color: rgb(63, 30, 184);
+    background: #ffffff;
+    width: 450px;
+    text-align: center;
+}

@@ -1,0 +1,281 @@
+
+.Contact{
+    width: 100%;
+    float: left;
+}
+
+
+.Contact-bg {
+    width: 100%;
+    float: left;
+    background-image: url('Contact-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 650px;
+}
+
+.Contact-hed {
+    height: 300px;
+    text-align: center;
+}
+
+.Contact-hed p {
+    color: rgb(255, 255, 255);
+    margin-top: 170px;
+    font-size: 70px;
+    font-weight: 500;
+    font-family: cursive;
+}
+
+.Contact-hed h2 {
+    background: -webkit-linear-gradient(#db0202b9, #686565);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 80px;
+    margin-top: 40px;
+    display: ruby-base;
+}
+
+.Contact-path {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    float: left;
+    font-size: 30px;
+    width: 100%;
+}
+
+.Contact-path a {
+    text-decoration: none;
+    color: rgb(25, 0, 253);
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contact-path p {
+    font-size: 40px;
+    font-weight: 150;
+    color: rgb(0, 183, 255);
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+
+
+
+.Contact-effect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(#e0e0e0);
+    width: 100%;
+    float: left;
+}
+
+
+
+.Contact-box {
+    position: relative;
+    width: 600px;
+    height: 700px;
+    background: black;
+    border-radius: 8px;
+    overflow: hidden;
+    float: left;
+}
+
+.Contact-box::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 600px;
+    height: 600px;
+    background: linear-gradient(0deg, transparent, transparent, #45f3ff, #45f3ff, #45f3ff);
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+}
+
+
+.Contact-box::after {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 600px;
+    height: 600px;
+    background: linear-gradient(0deg, transparent, transparent, #45f3ff, #45f3ff, #45f3ff);
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -3s;
+}
+
+.Contact-borderLine {
+    position: absolute;
+    top: 0;
+    inset: 0;
+}
+
+.Contact-borderLine::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 600px;
+    height: 600px;
+    background: linear-gradient(0deg, transparent, transparent, #ff2770, #ff2770, #ff2770);
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -1.5s;
+}
+
+.Contact-borderLine::after {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 600px;
+    height: 600px;
+    background: linear-gradient(0deg, transparent, transparent, #ff2770, #ff2770, #ff2770);
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -4.5s;
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.Contact-box form {
+    position: absolute;
+    inset: 7px;
+    background: rgb(0, 0, 0);
+    padding: 50px 40px;
+    border-radius: 8px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.Contact-box form h2 {
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.2em;
+    font-size: 3em;
+
+}
+
+.Contact-inputBox {
+    position: relative;
+    width: 500px;
+    margin-top: 35px;
+}
+
+.Contact-inputBox input {
+    position: relative;
+    width: 100%;
+    padding: 20px 10px 10px;
+    background: transparent;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    color: #23242a;
+    font-size: 2em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+    z-index: 10;
+}
+
+.Contact-inputBox span {
+    position: absolute;
+    left: 0;
+    padding: 20px 0px 10px;
+    pointer-events: none;
+    color: #8f8f8f;
+    font-size: 2em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+}
+
+.Contact-inputBox input:valid~span {
+    color: #fff;
+    font-size: 0.75em;
+    transform: translateY(-35px);
+
+}
+
+.Contact-inputBox i {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    border-radius: 4px;
+    overflow: hiContact-dden;
+    transition: 0.5s;
+    pointer-events: none;
+}
+
+.Contact-inputBox input:valid~i,
+.Contact-inputBox input:focus~i {
+    height: 44px;
+
+}
+
+
+  
+
+.Contact-btn button{
+
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background: #ff2770;
+    color: white;
+    padding: 10px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.Contact-btn button:hover{
+    color: white;
+    background: #45f3ff;
+}
+
+.Contact-box form input[ type="submit"]:active {
+    opacity: 0.8;
+}
+
+
+@media (max-width: 768px) {
+
+
+    .Gallery-map iframe{
+        width: 390px;
+        height: 200px;
+    }
+
+    
+}

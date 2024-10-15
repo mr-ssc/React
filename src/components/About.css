@@ -1,0 +1,371 @@
+
+.About {
+    width: 100%;
+    float: left;
+}
+
+.About-bg {
+    width: 100%;
+    float: left;
+    background-image: url('About-bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 1000px;
+}
+
+.About-hed {
+    height: 300px;
+    text-align: center;
+}
+
+.About-hed p {
+    color: rgb(255, 255, 255);
+    margin-top: 170px;
+    font-size: 70px;
+    font-weight: 500;
+    font-family: cursive;
+}
+
+.About-hed h2 {
+    background: -webkit-linear-gradient(#d16464, #bef608);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 80px;
+    margin-top: 40px;
+    display: ruby-base;
+}
+
+.About-path {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    float: left;
+    font-size: 30px;
+    width: 100%;
+}
+
+.About-path a {
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.About-path p {
+    font-size: 40px;
+    font-weight: 150;
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+
+.About-get {
+    width: 100%;
+    float: left;
+    background: linear-gradient(#021038, #011025);
+}
+
+.About-get-info {
+    width: 100%;
+
+}
+
+.About-get-info-1 {
+    width: 25%;
+    margin-top: 100px;
+    margin-left: 60px;
+    float: left;
+
+
+}
+
+.About-get-info-1 p {
+    font-size: 30px;
+    font-family: fantasy;
+    padding-top: 10px;
+    color: white;
+
+}
+
+.About-get-info-1 h2 {
+    font-size: 50px;
+    color: white;
+    font-weight: 1200;
+    padding-top: 10px;
+    font-family: Courier New, Courier, monospace;
+}
+
+.About-get-info-2 {
+    width: 25%;
+    float: left;
+
+    margin-top: 100px;
+    margin-left: 100px;
+    border: 2px solid yellow;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.About-get-info-2 h2 {
+    text-decoration: underline;
+    font-size: 50px;
+    color: yellow;
+    text-align: center;
+}
+
+
+
+.About-get-info-2 h3 {
+    margin-top: 20px;
+    color: white;
+}
+
+.About-get-info-2 h4 {
+    margin-top: 10px;
+    color: white;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+.About-get-info-3 {
+    width: 25%;
+    float: left;
+
+    margin-top: 100px;
+    margin-left: 100px;
+    border: 2px solid yellow;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.About-get-info-3 h2 {
+    text-decoration: underline;
+    font-size: 50px;
+    color: yellow;
+    text-align: center;
+}
+
+
+
+.About-get-info-3 h3 {
+    margin-top: 20px;
+    color: white;
+}
+
+.About-get-info-3 h4 {
+    margin-top: 10px;
+    color: white;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+
+.About-road {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+
+}
+
+.About-road-pic {
+    width: 50%;
+    float: left;
+
+}
+
+.About-road-pic img {
+    width: 90%;
+    padding-top: 350px;
+    padding-left: 50px;
+    height: auto;
+
+
+}
+
+.About-road-info {
+    width: 50%;
+    float: left;
+
+}
+
+.About-road-info h2 {
+    text-align: center;
+    font-size: 50px;
+    color: #d16464;
+    margin-top: 100px;
+}
+
+.About-road-arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.About-road-arrow i {
+    color: white;
+}
+
+.About-road-info-1 {
+    width: 90%;
+    margin-left: 70px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid;
+    float: left;
+    padding: 10px;
+}
+
+.About-road-info-1 ul li {
+    text-decoration: underline;
+    font-size: 30px;
+    height: 80px;
+    color: yellow;
+    /* float: left;  */
+
+}
+
+.About-road-info-1 h3 {
+    width: 70%;
+    text-align: right;
+    font-size: 30px;
+    /* float: left;  */
+
+    color: #d16464;
+}
+
+.About-road-info-1 p {
+    width: 100%;
+    text-align: left;
+    font-size: 30px;
+    color: wheat;
+    margin-left: 30px;
+}
+
+.About-road-info-2 {
+    width: 90%;
+    margin-left: 70px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid;
+    padding: 20px;
+}
+
+.About-road-info-2 ul li {
+    text-decoration: underline;
+    font-size: 40px;
+    height: 80px;
+    color: yellow;
+    /* float: left;  */
+
+}
+
+.About-road-info-2 h3 {
+    width: 70%;
+    text-align: right;
+    font-size: 30px;
+    /* float: left;  */
+
+    color: #d16464;
+}
+
+.About-road-info-2 p {
+    width: 100%;
+    text-align: left;
+    font-size: 30px;
+    /* float: left;  */
+
+    color: wheat;
+    margin-left: 30px;
+}
+
+
+
+.About-road-info-3 {
+    width: 90%;
+    margin-left: 70px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid;
+    /* float: left;  */
+
+    padding: 20px;
+}
+
+.About-road-info-3 ul li {
+    text-decoration: underline;
+    font-size: 40px;
+    height: 80px;
+    color: yellow;
+    /* float: left;  */
+
+}
+
+.About-road-info-3 h3 {
+    width: 70%;
+    text-align: right;
+    font-size: 30px;
+    /* float: left;  */
+
+    color: #d16464;
+}
+
+.About-road-info-3 p {
+    width: 100%;
+    text-align: left;
+    font-size: 30px;
+    /* float: left;  */
+
+    color: wheat;
+    margin-left: 30px;
+}
+
+
+
+.About-grid-box{
+    width: 100%;
+    float: left;
+}
+
+.About-grid-box-1{
+    width: 20%;
+    border: 2px solid rgb(255, 0, 0);
+    background: linear-gradient(#d16464 , #bef608);
+    float: left;
+    margin-left: 80px;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.About-grid-box-1 h2{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    text-decoration: underline ;
+
+}
+
+.About-grid-box-1 p{
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(43, 29, 29);
+}
+
+

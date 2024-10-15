@@ -1,0 +1,89 @@
+
+.Event {
+    width: 100%;
+    float: left;
+}
+
+.Event-ticket {
+    background: linear-gradient(#fb923c, #ddd);
+    height: 910px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* float: left; */
+
+}
+
+.Event-ticket-box {
+    width: fit-content;
+    height: fit-content;
+    border: 5px solid red;
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-top: 150px;
+
+}
+
+
+.Event-ticket-box img {
+    width: 400px;
+    height: 300px;
+}
+
+.Event-ticket-box p {
+    background-color: black;
+    color: white;
+    margin-top: -4px;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: sans-serif;
+
+}
+
+.Event-ticket-box-info {
+    background-color: #f2f2f1;
+    width: 400px;
+    height: 230PX;
+    margin-top: -10px;
+
+
+}
+
+.Event-ticket-box-info h2 {
+    font-size: 25px;
+    padding: 15px;
+
+}
+
+.Event-ticket-box-info p {
+    background-color: #f2f2f1;
+    color: #c370a5;
+    font-weight: 700;
+    font-size: 20px
+}
+
+.Event-ticket-box-info button {
+    background-color: #fb923c;
+    font-size: 20px;
+    color: white;
+    padding: 5px 20px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    margin-left: 20px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.Event-ticket-box-info a{
+    text-decoration: none;
+}
+
+.Event-ticket-box-info button i {
+    color: white;
+    margin-left: 10px;
+    text-align: center;
+}

@@ -1,0 +1,243 @@
+.Signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background: linear-gradient(#ff8800 , #0004ff); */
+    background-image: url(Sign-in-bg.jpeg);
+    background-size: cover;
+    width: 100%;
+    float: left;
+}
+
+
+.Signup-box {
+    position: relative;
+    width: 600px;
+    height: 920px;
+    background: black;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.Signup-box::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 600px;
+    height: 920px;
+    background: linear-gradient(0deg, transparent, transparent, #45f3ff, #45f3ff, #45f3ff);
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+}
+
+
+.Signup-box::after {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 600px;
+    height: 920px;
+    background: linear-gradient(0deg, transparent, transparent, #45f3ff, #45f3ff, #45f3ff);
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -3s;
+}
+
+.Signup-borderLine {
+    position: absolute;
+    top: 0;
+    inset: 0;
+
+
+}
+
+.Signup-borderLine::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 600px;
+    height: 920px;
+    background: linear-gradient(0deg, transparent, transparent, #ff2770, #ff2770, #ff2770);
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -1.5s;
+}
+
+.Signup-borderLine::after {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 600px;
+    height: 920px;
+    background: linear-gradient(0deg, transparent, transparent, #ff2770, #ff2770, #ff2770);
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -4.5s;
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.Signup-box form {
+    position: absolute;
+    inset: 7px;
+    background: #020015;
+    padding: 50px 40px;
+    border-radius: 8px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.Signup-box form h2 {
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.2em;
+    font-size: 3em;
+
+}
+
+.Signup-inputBox {
+    position: relative;
+    width: 500px;
+    margin-top: 35px;
+}
+
+.Signup-inputBox input {
+    position: relative;
+    width: 100%;
+    padding: 20px 10px 10px;
+    background: transparent;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    color: #23242a;
+    font-size: 2em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+    z-index: 10;
+}
+
+.Signup-inputBox span {
+    position: absolute;
+    left: 0;
+    padding: 20px 0px 10px;
+    pointer-events: none;
+    color: #8f8f8f;
+    font-size: 2em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+}
+
+.Signup-inputBox input:valid~span {
+    color: #fff;
+    font-size: 0.75em;
+    transform: translateY(-35px);
+
+}
+
+.Signup-inputBox i {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    border-radius: 4px;
+    overflow: hiSignup-dden;
+    transition: 0.5s;
+    pointer-events: none;
+}
+
+.Signup-inputBox input:valid~i,
+.Signup-inputBox input:focus~i {
+    height: 44px;
+
+}
+
+.Signup-gender {
+    color: white;
+    font-size: 20px;
+    margin-top: 40px;
+    
+}
+
+.Signup-gender [type="radio"]{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.Signup-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Signup-links a {
+    margin: 30px 0;
+    font-size: 2em;
+    color: #8f8f8f;
+    text-decoration: none;
+}
+
+.Signup-links a:hover,
+.Signup-links a:nth-child(2) {
+
+    color: #fff;
+}
+
+.Signup-checkbox-group [type="checkbox"]{
+    margin-left: 5px;
+}
+
+.Signup-checkbox-group{
+    font-size: 20px;
+    margin-left: 10px;
+    color: white;
+    margin-top: 30px;
+}
+
+
+.Signup-btn button{
+
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background: #ff2770;
+    color: white;
+    padding: 10px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.Signup-btn button:hover{
+    color: white;
+    background: #45f3ff;
+}
+
+.Signup-box form input[ type="submit"]:active {
+    opacity: 0.8;
+}
+
+
+
